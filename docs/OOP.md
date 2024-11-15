@@ -3,10 +3,10 @@
 Object-Oriented Programming (OOP) is a programming paradigm that uses objects and classes to organize software design. This approach not only makes the code more modular and reusable but also easier to maintain. Python supports OOP and allows developers to define classes, create objects, and implement concepts such as inheritance and polymorphism.
 
 ## Table of Contents
-    Classes and Objects
-    Inheritance
-    Encapsulation
-    Polymorphism
+- [Classes and Objects]
+- [Inheritance]
+- [Encapsulation]
+- [Polymorphism]
 
 ## Classes and Objects
 
@@ -21,11 +21,11 @@ class Dog:
     def bark(self):
         return f"{self.name} barks."
 
-- Creating objects
+# Creating objects
 dog1 = Dog("Buddy", 5)
 dog2 = Dog("Lucy", 3)
 
-- Accessing object attributes and methods
+# Accessing object attributes and methods
 print(dog1.bark())  # Buddy barks.
 print(f"{dog2.name} is {dog2.age} years old.")  # Lucy is 3 years old.
 
