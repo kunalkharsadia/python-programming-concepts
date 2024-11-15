@@ -15,28 +15,29 @@ Classes are blueprints for creating objects. A class defines a datatype by bundl
 
 ### Example:
 
-```python
-class Dog:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-    def bark(self):
-        return f"{self.name} barks."
-
-# Creating objects
-dog1 = Dog("Buddy", 5)
-dog2 = Dog("Lucy", 3)
-
-# Accessing object attributes and methods
-print(dog1.bark())  # Buddy barks.
-print(f"{dog2.name} is {dog2.age} years old.")  # Lucy is 3 years old.
+    ```python
+    class Dog:
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
+    
+        def bark(self):
+            return f"{self.name} barks."
+    
+    # Creating objects
+    dog1 = Dog("Buddy", 5)
+    dog2 = Dog("Lucy", 3)
+    
+    # Accessing object attributes and methods
+    print(dog1.bark())  # Buddy barks.
+    print(f"{dog2.name} is {dog2.age} years old.")  # Lucy is 3 years old.
 
 
 ## Inheritance
 
 Inheritance allows one class to inherit the attributes and methods from another class. A class that inherits is called a child class, and the class it inherits from is called the parent class.
-Example:
+
+### Example:
 
     ```python
             class Animal:
@@ -64,7 +65,8 @@ Example:
 ## Encapsulation
 
 Encapsulation is the restriction of access to certain components of an object, which prevents the internal state of the object from being changed by anything other than the object's own methods.
-Example:
+
+### Example:
 
     ```python
             class Account:
@@ -93,7 +95,8 @@ Example:
 ## Polymorphism
 
 Polymorphism allows methods to do different things based on the object it is acting upon. This is achieved by having a method in a parent class that is overridden by a method in a child class.
-Example:
+
+### Example:
 
     ```python
             class Bird:
