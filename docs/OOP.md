@@ -13,7 +13,7 @@ Object-Oriented Programming (OOP) is a programming paradigm that uses objects an
 Classes are blueprints for creating objects. A class defines a datatype by bundling data (attributes) and associated functionalities (methods).
 Example:
     
-    ```python
+```python
     class Dog:
         def __init__(self, name, age):
             self.name = name
@@ -35,7 +35,7 @@ Example:
 Inheritance allows one class to inherit the attributes and methods from another class. A class that inherits is called a child class, and the class it inherits from is called the parent class.
 Example:
 
-    ```python
+```python
     class Animal:
         def __init__(self, name):
             self.name = name
@@ -63,7 +63,7 @@ Example:
 Encapsulation is the restriction of access to certain components of an object, which prevents the internal state of the object from being changed by anything other than the object's own methods.
 Example:
 
-    ```python
+```python
     class Account:
         def __init__(self, owner, balance=0):
             self.owner = owner
@@ -92,7 +92,7 @@ Example:
 Polymorphism allows methods to do different things based on the object it is acting upon. This is achieved by having a method in a parent class that is overridden by a method in a child class.
 Example:
 
-    ```python
+```python
     class Bird:
         def intro(self):
             return "There are many types of birds."
