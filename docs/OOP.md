@@ -28,7 +28,7 @@ dog2 = Dog("Lucy", 3)
 
 # Accessing object attributes and methods
 print(dog1.bark())  # Buddy barks.
-print(f"{dog2.name} is {dog2.age} years old.")  # Lucy is 3 years old.
+print(f"{dog2.name} is {dog2.age} years old.")  # Lucy is 3 years old.```
 
 
 ## Inheritance
