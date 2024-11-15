@@ -3,15 +3,15 @@
 Object-Oriented Programming (OOP) is a programming paradigm that uses objects and classes to organize software design. This approach not only makes the code more modular and reusable but also easier to maintain. Python supports OOP and allows developers to define classes, create objects, and implement concepts such as inheritance and polymorphism.
 
 ## Table of Contents
-- [Classes and Objects]
-- [Inheritance]
-- [Encapsulation]
-- [Polymorphism]
+- Classes and Objects
+- Inheritance
+- Encapsulation
+- Polymorphism
 
 ## Classes and Objects
 
-    Classes are blueprints for creating objects. A class defines a datatype by bundling data (attributes) and associated functionalities (methods).
-    Example:
+Classes are blueprints for creating objects. A class defines a datatype by bundling data (attributes) and associated functionalities (methods).
+Example:
     
     ```python
     class Dog:
@@ -32,8 +32,8 @@ Object-Oriented Programming (OOP) is a programming paradigm that uses objects an
 
 ## Inheritance
 
-    Inheritance allows one class to inherit the attributes and methods from another class. A class that inherits is called a child class, and the class it inherits from is called the parent class.
-    Example:
+Inheritance allows one class to inherit the attributes and methods from another class. A class that inherits is called a child class, and the class it inherits from is called the parent class.
+Example:
 
     ```python
     class Animal:
@@ -51,7 +51,7 @@ Object-Oriented Programming (OOP) is a programming paradigm that uses objects an
         def speak(self):
             return f"{self.name} says Woof!"
     
-    - Usage
+    # Usage
     cat = Cat("Misty")
     dog = Dog("Rover")
     
@@ -62,6 +62,7 @@ Object-Oriented Programming (OOP) is a programming paradigm that uses objects an
 
 Encapsulation is the restriction of access to certain components of an object, which prevents the internal state of the object from being changed by anything other than the object's own methods.
 Example:
+
     ```python
     class Account:
         def __init__(self, owner, balance=0):
@@ -83,13 +84,14 @@ Example:
     acc = Account("John")
     print(acc.deposit(100))
     print(acc.withdraw(50))
-    - The following line will raise an error because __balance is private
-    - print(acc.__balance)
+    # The following line will raise an error because __balance is private
+    # print(acc.__balance)
 
 ## Polymorphism
 
 Polymorphism allows methods to do different things based on the object it is acting upon. This is achieved by having a method in a parent class that is overridden by a method in a child class.
 Example:
+
     ```python
     class Bird:
         def intro(self):
@@ -106,7 +108,7 @@ Example:
         def flight(self):
             return "Ostriches cannot fly."
     
-    - Instantiation
+    # Instantiation
     bird = Bird()
     sparrow = Sparrow()
     ostrich = Ostrich()
