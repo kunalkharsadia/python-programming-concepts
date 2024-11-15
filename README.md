@@ -8,8 +8,10 @@ This repository is dedicated to explaining fundamental programming concepts with
 - [Writing Production Ready Code](docs/ProductionReadyCode.md)
 - [More topics coming soon...]
 
-## Contributing
-We welcome contributions to this repository. If you'd like to add explanations or improve the existing content, please feel free to make a pull request.
+## Contribution
+
+This is a personal project, and modifications or use without explicit permission are not allowed.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+This project is personal and proprietary. All rights are reserved.
